@@ -249,7 +249,7 @@ const Contact = ({}) => {
       <div className="flex w-full overflow-hidden">
         <Image
           className="h-full w-full object-cover lg:h-[500px]"
-          src="/images/about-us/5.webp"
+          src="/images/about-us/5.jpg"
           alt="bottom"
           width={966}
           height={96}

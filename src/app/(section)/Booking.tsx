@@ -14,11 +14,11 @@ const Booking = ({}) => {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/booking/image.webp"
-            width={948}
-            height={880}
+            src="/images/home/booking/image.jpg"
+            width={5794}
+            height={3863}
             alt="private dining"
-            className="h-auto max-h-[700px] w-full rounded-lg object-cover md:rounded-none"
+            className="h-auto w-full rounded-lg object-cover md:h-[700px] md:rounded-none"
           />
         </div>
         <motion.div

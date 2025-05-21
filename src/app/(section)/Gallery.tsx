@@ -18,66 +18,66 @@ const Gallery = ({}) => {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/1.webp"
+            src="/images/home/gallery/1.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <motion.img
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/2.webp"
+            src="/images/home/gallery/2.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <motion.img
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/3.webp"
+            src="/images/home/gallery/3.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <motion.img
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/4.webp"
+            src="/images/home/gallery/4.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <motion.img
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/5.webp"
+            src="/images/home/gallery/5.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <motion.img
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            src="/images/home/gallery/6.webp"
+            src="/images/home/gallery/6.jpg"
             alt="gallery"
             className="h-[200px] w-full object-cover md:h-[400px]"
-            width={1920}
-            height={980}
+            width={5794}
+            height={3863}
           />
           <div className="absolute inset-0 flex items-center justify-center px-4">
             <Button

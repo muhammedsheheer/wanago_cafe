@@ -18,7 +18,7 @@ const BavetteStory = ({}) => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              src="/images/about-us/3.webp"
+              src="/images/about-us/3.jpg"
               width={577}
               height={676}
               alt="private dining"

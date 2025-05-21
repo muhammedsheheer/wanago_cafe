@@ -34,7 +34,7 @@ const Hero = ({}) => {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              src="/images/about-us/2.webp"
+              src="/images/about-us/2.jpg"
               width={951}
               height={975}
               alt="hero"

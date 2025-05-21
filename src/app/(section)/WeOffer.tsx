@@ -19,11 +19,11 @@ const WeOffer = ({}) => {
         <div className="grid-cols- grid w-full pt-4 md:grid-cols-3 md:pt-[8.3rem]">
           <div className="group relative h-auto w-full transition-all duration-300 ease-in-out">
             <Image
-              src="/images/home/offer/1.webp"
-              width={640}
-              height={756}
+              src="/images/home/offer/1.jpg"
+              width={5794}
+              height={3863}
               alt="food"
-              className="h-[300px] w-full object-cover md:h-full"
+              className="h-[300px] w-full object-cover md:h-[600px]"
             />
             <div className="absolute inset-0 z-0 bg-black/50" />
             <h1 className="absolute inset-0 left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center font-playfair text-[3.2rem] text-[#FBEAD2]">
@@ -45,11 +45,11 @@ const WeOffer = ({}) => {
           </div>
           <div className="group relative h-auto w-full transition-all duration-300 ease-in-out">
             <Image
-              src="/images/home/offer/2.webp"
-              width={640}
-              height={756}
+              src="/images/home/offer/2.jpg"
+              width={5794}
+              height={3863}
               alt="food"
-              className="h-[300px] w-full object-cover md:h-full"
+              className="h-[300px] w-full object-cover md:h-[600px]"
             />
             <div className="absolute inset-0 z-0 bg-black/50" />
             <h1 className="absolute inset-0 left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center font-playfair text-[3.2rem] text-[#FBEAD2]">
@@ -71,11 +71,11 @@ const WeOffer = ({}) => {
           </div>
           <div className="group relative h-auto w-full transition-all duration-300 ease-in-out">
             <Image
-              src="/images/home/offer/3.webp"
-              width={640}
-              height={756}
+              src="/images/home/offer/3.jpg"
+             width={5794}
+              height={3863}
               alt="atmosphere"
-              className="h-[300px] w-full object-cover md:h-full"
+              className="h-[300px] w-full object-cover md:h-[600px]"
             />
             <div className="absolute inset-0 z-0 bg-black/50" />
             <h1 className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center font-playfair text-[3.2rem] text-[#FBEAD2]">

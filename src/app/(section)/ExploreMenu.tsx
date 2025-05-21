@@ -113,27 +113,27 @@ const ExploreMenu = ({}) => {
           </h2>
           <div className="menu-one z-10 mt-0 flex h-full w-full justify-center md:-ml-[50px] md:mt-12 md:w-1/3">
             <Image
-              src="/images/home/menu/1.webp"
-              width={435}
-              height={319}
+              src="/images/home/menu/1m.jpg"
+              width={5794}
+              height={3863}
               alt="1"
               className="h-auto w-full max-w-[400px] object-cover md:h-[300px]"
             />
           </div>
           <div className="menu-one z-10 flex h-full w-full justify-center md:-ml-[50px] md:w-1/3">
             <Image
-              src="/images/home/menu/3.webp"
-              width={365}
-              height={495}
+              src="/images/home/menu/3m.jpg"
+              width={5794}
+              height={3863}
               alt="1"
               className="h-auto w-full max-w-[400px] object-cover md:h-[550px]"
             />
           </div>
           <div className="menu-one z-10 mt-0 flex h-full w-full justify-center md:-ml-[50px] md:mt-40 md:w-1/3">
             <Image
-              src="/images/home/menu/2.webp"
-              width={439}
-              height={320}
+              src="/images/home/menu/2m.jpg"
+              width={5794}
+              height={3863}
               alt="1"
               className="h-auto w-full max-w-[400px] object-cover md:h-[300px]"
             />

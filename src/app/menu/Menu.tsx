@@ -247,7 +247,7 @@ export default function Menu() {
           className="relative hidden h-[30vh] w-full bg-black md:flex"
           style={{
             background:
-              "linear-gradient(170deg, rgba(0, 0, 0, 0.00) 7.51%, rgba(0, 0, 0, 0.80) 92.93%), url('/images/about-us/1.webp') lightgray 50% / cover no-repeat",
+              "linear-gradient(170deg, rgba(0, 0, 0, 0.00) 7.51%, rgba(0, 0, 0, 0.80) 92.93%), url('/images/about-us/1.jpg') lightgray 50% / cover no-repeat",
           }}
         >
           {/* <div className="absolute left-0 top-0 flex h-full w-full items-end justify-end px-12 py-12">
