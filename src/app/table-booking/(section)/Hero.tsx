@@ -2,7 +2,7 @@ const Hero = ({}) => {
   return (
     <section
       id="hero"
-      className="flex h-full min-h-[400px] w-full flex-col items-center justify-center gap-[1.38rem] text-[1.5rem] leading-[110%]"
+      className="relative flex h-full min-h-[400px] w-full flex-col items-center justify-center gap-[1.38rem] text-[1.5rem] leading-[110%]"
       style={{
         background:
           "linear-gradient(170deg, rgba(0, 0, 0, 0.00) 7.51%, rgba(0, 0, 0, 0.80) 92.93%), url(/images/about-us/6.jpg) lightgray 50% / cover no-repeat",

@@ -5,9 +5,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Sidebar from "./SideBar";
-// import { BetaMenuActive } from "@/lib/constants";
 import { cn } from "@/lib/utils";
-// import { usePathname } from "next/navigation";
+import * as React from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Navbar = ({
   position = "static",
@@ -15,6 +23,8 @@ const Navbar = ({
   position?: "static" | "fixed" | "absolute";
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [positioned, setPositioned] = React.useState("bottom");
+
   // const pathname = usePathname();
 
   useEffect(() => {
@@ -54,13 +64,49 @@ const Navbar = ({
           </Link>
           {!isScrolled && (
             <div className="hidden flex-row items-center justify-center gap-[3.48rem] md:flex">
-              <Button
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button className="px-0 uppercase text-accent" variant="link">
+                    Menu
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-60">
+                  {/* <DropdownMenuLabel>Panel Position</DropdownMenuLabel> */}
+                  <DropdownMenuSeparator />
+                  <DropdownMenuRadioGroup
+                    value={positioned}
+                    onValueChange={setPositioned}
+                  >
+                    <DropdownMenuRadioItem value="top">
+                      <Link
+                        className="uppercase text-[#000]"
+                        href={"/pdf/Food_menu.pdf"}
+                        target="_blank"
+                      >
+                        Food Menu
+                      </Link>
+                    </DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="bottom">
+                      <Link
+                        className="uppercase text-[#000]"
+                        href={"/pdf/Sushi_menu.pdf"}
+                        target="_blank"
+                      >
+                        Sushi Menu
+                      </Link>
+                    </DropdownMenuRadioItem>
+                  </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
+
+              {/* <Button
                 asChild
                 variant="link"
                 className="px-0 uppercase text-accent"
               >
                 <Link href="/menu">Menu</Link>
-              </Button>
+              </Button> */}
+
               <Button
                 asChild
                 variant="link"

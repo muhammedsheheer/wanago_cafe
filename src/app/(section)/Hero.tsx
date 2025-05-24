@@ -30,12 +30,12 @@ const Hero = ({}) => {
           <video
             className="min-h-full min-w-full object-cover"
             style={{ objectPosition: "30% center" }}
-            src="/video/home/hero.mp4"
+            src="https://d8q1b3smcycac.cloudfront.net/wanago/wanago-web.mp4"
             autoPlay
             loop
             muted
             playsInline
-            //poster="https://foodo-web-videos.s3.eu-west-2.amazonaws.com/bavette-thumbnail.png"
+            poster="https://d8q1b3smcycac.cloudfront.net/wanago/wanago-thumbnail.png"
           ></video>
         </div>
         <div className="z-50 flex h-full w-full max-w-[1300px] items-center justify-center">
